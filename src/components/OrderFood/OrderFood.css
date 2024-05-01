@@ -34,10 +34,13 @@
 }
 .cross-icon {
     position: absolute;
-    right: 118px;
-    bottom: 14px;
-	font-size:14px;
-	cursor:pointer;
+    right: 97px;
+    bottom: 17px;
+    font-size: 14px;
+    cursor: pointer;
+}
+.cross-icon svg{
+    color: #8d8d8d;
 }
 .search-meal-btn {
 	padding:13px 20px !important;

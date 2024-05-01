@@ -1,6 +1,7 @@
 import React from 'react'
 import "./OrderFood.css"
 import { FaStar } from "react-icons/fa6";
+import { MdGpsFixed } from "react-icons/md";
 
 // Import Images
 import img_01 from "../../assets/homepage/meals/img-1.jpg"
@@ -42,7 +43,7 @@ const OrderFood = () => {
 								<input  className="search-location" name="search" type="search" placeholder="Enter Your Location"/>
 								<div className="icon-btn">
 									<div className="cross-icon">
-									<i className="fas fa-crosshairs"></i>
+									<MdGpsFixed />
 									</div>
 									<div className="s-m-btn">
 										<button className="search-meal-btn btn-link">Search</button>
@@ -147,11 +148,11 @@ const OrderFood = () => {
 								<div className="delivery"><i className="fas fa-shopping-cart"></i>Delivery Free : Free</div>
 								<div className="time"><i className="far fa-clock"></i>Delivery Time : 30 Min</div>
 								<div className="star">
-									<i className="fas fa-star"></i>
-									<i className="fas fa-star"></i>
-									<i className="fas fa-star"></i>
-									<i className="fas fa-star"></i>
-									<i className="fas fa-star"></i>								
+									<FaStar />							
+									<FaStar />							
+									<FaStar />							
+									<FaStar />							
+									<FaStar />							
 									<span>4.5</span> 
 									<div className="comments"><a href="#"><i className="fas fa-comment-alt"></i>05</a></div>
 								</div>								
