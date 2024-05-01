@@ -1,0 +1,51 @@
+/*** Explore Your Favorite Recipes ***/
+
+.explore-recipes {
+	margin-top:80px;
+	text-align:center;
+}
+.b-recipes {
+	margin-top:20px;
+}
+.recipe-item {
+    position: relative;
+    width: 100%;
+    margin-top: 30px;
+}
+.recipe-item img {
+    display: block;
+    width: 100%;
+}
+.recipes-title  {
+	margin:22px 0px;
+}
+.recipe-item .overlay {
+    position: absolute;
+    background: rgba(0, 0, 0, 0.6);
+    width: 100%;
+    transition: .2s ease;
+    opacity: 0.8;
+    text-align: center;
+    top: 50px;
+    bottom: 30px;
+    height: max-content;
+}
+.recipe-item:hover .overlay {
+  opacity: 1;
+  color:fff;
+}
+.recipe-item .overlay h6 {
+    font-size: 18px;
+    font-weight: 500;
+    color: #fff;
+    text-align: center;
+    margin: 0px;
+}
+.recipe-item .overlay p {
+    font-size: 12px;
+    font-weight: 400;
+    color: #eeeeee;
+    text-align: center;
+    margin: 0px;
+    padding-top: 2px;
+}

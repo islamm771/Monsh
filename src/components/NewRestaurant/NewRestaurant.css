@@ -1,0 +1,14 @@
+.new-restaurants-book-now {
+	text-align:center;	
+}
+.new-heading h1 {
+  font-size: 24px;
+  color: #3e3f5e;
+  font-weight: 600;
+}
+
+.new-resto {
+	margin-top:46px;
+	border:1px solid #e1e1e1;
+	padding: 20px 20px 10px;
+}

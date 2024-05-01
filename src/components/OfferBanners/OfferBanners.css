@@ -1,0 +1,66 @@
+.offer-banners {
+	margin-top:67px;
+	margin-bottom:77px;
+}
+.offer-banners .banner {
+	margin-top:30px;
+	position:relative;
+}
+.banner .offr-bnnr-img {
+	position:relative;
+}
+.banner .offr-bnnr-img img{
+	width:100%;
+}
+.offer-banners .ads-banner {
+    position: absolute;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.offer-banners .ads-banner-01{
+  background-image: url(../../assets/homepage/offer-banners/banner-1.jpg);
+}
+.offer-banners .ads-banner-02{
+  background-image: url(../../assets/homepage/offer-banners/banner-2.jpg);
+}
+.banner .banner-items {
+	position: relative;
+    padding: 20px 20px;
+}
+.bnnr-text i {
+    margin: 0 10px;
+}
+.banner .bnnr-text h2 {
+  font-size: 24px;
+  color: #fff;
+  font-weight: 600;
+  line-height: 24px;
+  text-align: left;
+}.banner .bnnr-text span {
+  font-size: 23px;
+  color: #ffa803;
+}
+.banner .bnnr-text p {
+  font-size: 14px;
+  color: #fff;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  padding:8px 0px;
+}
+.offer-button {
+    padding: 15px 0px;
+}
+.of-btn {
+	padding: 9px 14px;
+	font-size:12px;
+	color:#fff;
+	background:#ffa803;
+	cursor:pointer;
+	margin-top:20px;
+}

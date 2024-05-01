@@ -1,0 +1,76 @@
+/*** Featured Restaurants ***/
+
+.featured-restaurants {
+	margin-top:77px;
+}
+.featured-restaurants .bg-resto{
+	border-top:1px solid #e1e1e1;
+	border-left: 1px solid #e1e1e1;
+    border-right: 1px solid #e1e1e1;
+	margin-top:50px;
+}
+
+.bg-resto .resto-item{
+	border-bottom:1px solid #e1e1e1;
+	padding:15px 15px;
+}
+.bg-resto .resto-img {
+	display:flex;
+}
+.bg-resto .resto-img .resto-name{
+	margin-left:15px;
+	margin-top: 2px;
+}
+.bg-resto .resto-img .resto-name h4 a{
+	font-size:16px;
+	color:#000;
+	font-weight:500;
+	text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+.bg-resto .resto-img .resto-name h4 a:hover{
+	color:#ffa803;
+}
+.bg-resto .resto-img .resto-name p{
+	font-size:14px;
+	color:#847577;
+	font-weight:400;
+}
+.resto-item .resto-location {
+	font-size:14px;
+	font-weight:400;
+	color:#847577;
+	padding: 17px 0px;
+	text-align: center;
+}
+.resto-item .resto-location i {
+	margin-right:10px;
+}
+.resto-item .resto-location span {
+	color:#ffa803;
+}
+.menu-btn {
+	padding: 17px 0px;
+	text-align: right;
+}	
+.mn-btn {
+	padding:14px 18px;
+}
+
+.bg-resto .treading-item {
+    border-bottom: 1px solid #e1e1e1;
+    padding: 15px 15px;
+}
+.bg-resto .treading-item .resto-img {
+	display:flex;
+	margin-left:15px;
+	
+}
+.treading-item .menu-btn {
+	padding: 17px 0px;
+    right: 0;
+}
+.p-right {
+	padding-right: 5px !important;
+}

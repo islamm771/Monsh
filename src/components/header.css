@@ -1,0 +1,183 @@
+*{
+    box-sizing: border-box;
+}
+.block-preview {
+    position: relative;
+    padding: 0px;
+}
+.block-preview .cover-banner {
+    position: absolute;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #000;
+    z-index: -1;
+}
+
+.left-text-b {
+	padding-top: 77px;
+    padding-bottom: 77px;
+}
+.title {
+  font-size: 48px;
+  color: #fff;
+  font-weight: bold;
+  text-transform:none;
+  position:relative;
+}
+
+.exeption {
+    font-size: 18px;
+    font-weight: 500;
+    margin-top: 27px;
+    position: relative;
+    Color: #fff;
+    line-height: 1.6em;
+	text-transform:none;
+    margin-top: 15px;
+}
+
+.left-text-b p {
+    font-size: 14px;
+    line-height: 26px;
+    color: #fff;
+    font-weight: 400;
+}
+
+
+.bnr-btn {
+	color:#fff;
+    display: inline-block;
+    font-weight: 400;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    border: 1px solid transparent;
+    font-size: 14px;
+    line-height: 1.4rem;
+    border-radius: 3px;
+	background-color: #fd6729;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    padding: 14px 20px;
+	margin-top: 40px;
+}
+
+.form-box {
+	padding-left:20px;
+	padding-right:20px;
+	padding-top:80px;
+	padding-bottom:80px;
+	background-color: rgb(255, 255, 255, 0.102);
+	z-index: 848;
+}
+.find-address {
+	color:#847577;
+	padding:16px 50px;
+	font-size:12px;
+	font-weight:400;
+	width:100%;
+	border-radius:3px;
+	border: 1px solid #e1e1e1;
+	background-color: rgb(255, 255, 255);
+	box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, 0.1);
+	z-index: 857;
+    outline: 0;
+}
+
+.find-resto {
+	color:#847577;
+	padding:16px 50px;
+	font-size:12px;
+	font-weight:400;
+	width:100%;
+	margin-top:30px;
+	border-radius:3px;border: 1px solid #e1e1e1;
+	background-color: rgb(255, 255, 255);
+	box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, 0.1);
+	z-index: 857;
+    outline: 0;
+}
+.find-resto:focus{
+	border-radius:3px;border: 1px solid #ffa803;
+	background-color: rgb(255, 255, 255);
+	box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, 0.1);
+}
+.find-address:focus{
+	border-radius:3px;border: 1px solid #ffa803;
+	background-color: rgb(255, 255, 255);
+	box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, 0.1);
+}
+.search-btn {
+	color:#fff;
+    display: inline-block;
+    font-weight: 400;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    border: 1px solid transparent;
+    font-size: 14px;
+    line-height: 1.4rem;
+    border-radius: 3px;
+	background-color: #fd6729;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    padding: 14px 30px;
+	cursor:pointer;
+	margin-top: 46px;
+}
+
+.input-group-text {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    padding: 15px 18px;
+	margin:2px 2px;
+    margin-bottom: 0;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #847577;
+    text-align: center;
+    white-space: nowrap;
+    background-color: #fff;
+    border: 0px solid transparent;
+    border-top-right-radius:0px;
+    border-bottom-right-radius:0px;
+    position: absolute;
+}
+.input-group-text-1 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    padding: 15px 18px;
+	margin: 32px 2px;
+    margin-bottom: 0;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #847577;
+    text-align: center;
+    white-space: nowrap;
+    background-color: #fff;
+    border: 0px solid transparent;
+    border-top-right-radius:0px;
+    border-bottom-right-radius:0px;
+    position: absolute;
+}

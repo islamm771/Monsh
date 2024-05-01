@@ -1,0 +1,43 @@
+/*** Quick Searches ***/
+
+.quick-searches {
+	text-align:center;
+}
+.sub-title {
+	Font-size: 14px;
+    color: #847577;
+    margin-top: 27px;
+}
+.all-meals {
+	border:1px solid #e1e1e1;
+	margin-top: 50px;
+}
+.all-meals .item a{
+	color:#847577;
+}
+.all-meals .item a:hover{
+	color:#ffa803;
+}
+.all-meals .item {
+	padding:30px 0px;
+}
+.meal-icon {
+	width:100%;
+	text-align:center;
+	margin-bottom: 5px;
+}
+.meal-icon img {
+	height:30px;
+	margin: 0 auto;	
+}
+.meal-icon img:hover {
+	-webkit-transform: rotateY(360deg);
+	-ms-transform: rotateY(360deg);
+	transform: rotateY(360deg);
+	transition: transform 0.8s linear;	
+}
+
+.meal-title {
+	font-size:14px;
+	font-weight:400;
+}
