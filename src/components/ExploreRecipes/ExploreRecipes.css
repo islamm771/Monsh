@@ -26,9 +26,9 @@
     transition: .2s ease;
     opacity: 0.8;
     text-align: center;
-    top: 50px;
+    top: 40px;
     bottom: 30px;
-    height: max-content;
+    height:fit-content;
 }
 .recipe-item:hover .overlay {
   opacity: 1;

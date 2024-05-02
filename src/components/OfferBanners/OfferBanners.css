@@ -5,7 +5,9 @@
 .offer-banners .banner {
 	margin-top:30px;
 	position:relative;
-  box-shadow: 0 0 40px 0 #5e5c9a0f;
+  /* box-shadow: 0 0 40px 0 #5e5c9a0f; */
+  border-radius: 12px;
+  overflow: hidden;
 }
 .banner .offr-bnnr-img {
 	position:relative;
@@ -22,13 +24,15 @@
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
+    background-color: #fcfcfc;
 }
-.offer-banners .ads-banner-01{
+/* .offer-banners .ads-banner-01{
   background-image: url(../../assets/homepage/offer-banners/banner-1.jpg);
+  
 }
 .offer-banners .ads-banner-02{
   background-image: url(../../assets/homepage/offer-banners/banner-2.jpg);
-}
+} */
 .banner .banner-items {
 	position: relative;
     padding: 20px 20px;
@@ -38,17 +42,17 @@
 }
 .banner .bnnr-text h2 {
   font-size: 24px;
-  color: #fff;
+  /* color: #fff; */
   font-weight: 600;
   line-height: 24px;
   text-align: left;
 }.banner .bnnr-text span {
   font-size: 23px;
-  color: #ffa803;
+  color:#fd6729;
 }
 .banner .bnnr-text p {
   font-size: 14px;
-  color: #fff;
+  /* color: #fff; */
   font-weight: 400;
   line-height: 24px;
   text-align: left;

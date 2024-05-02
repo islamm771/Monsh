@@ -1,5 +1,6 @@
 import React from 'react'
 import "./OfferBanners.css"
+import { FaLongArrowAltRight } from 'react-icons/fa'
 
 const OfferBanners = () => {
   return (
@@ -25,7 +26,7 @@ const OfferBanners = () => {
 						<div className="ads-banner ads-banner-02"></div>											
 						<div className="banner-items">
 							<div className="bnnr-text">
-							<h2>Membership<span><i className="fas fa-long-arrow-alt-right"></i></span>Open Now</h2>
+							<h2>Membership<span><FaLongArrowAltRight style={{display:"inline"}} /></span>Open Now</h2>
 							<p>Memberships are now open for<br /> purchases.</p>
 							</div>
 							<div className="offer-button">

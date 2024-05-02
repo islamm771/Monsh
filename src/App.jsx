@@ -1,5 +1,5 @@
 import "./styles/css/styles.css"
-import Header from "./components/Header";
+import Header from "./components/MunchHeader/Header";
 import BrowsePlaces from "./components/BrowsePlaces/BrowsePlaces";
 import HowToWork from "./components/HowToWork/HowToWork";
 import NewRestaurant from "./components/NewRestaurant/NewRestaurant";

@@ -32,8 +32,8 @@ const RestuarantSwiper = () => {
       }}
       breakpoints={{
         320: {
-          slidesPerView: 2,
-          spaceBetween: 20,
+          slidesPerView: 1,
+          spaceBetween: 10,
         },
         768: {
           slidesPerView: 3,
@@ -48,27 +48,27 @@ const RestuarantSwiper = () => {
       >
         <SwiperSlide>
         <div className="item">
-            <a href="#"><img src={img_01} alt="" /></a>
+            <a href="#"><img className='mx-auto md:mx-0' src={img_01} alt="" /></a>
         </div>
         </SwiperSlide>
         <SwiperSlide>
         <div className="item">
-            <a href="#"><img src={img_02} alt="" /></a>
+            <a href="#"><img className='mx-auto md:mx-0' src={img_02} alt="" /></a>
         </div>
         </SwiperSlide>
         <SwiperSlide>
         <div className="item">
-            <a href="#"><img src={img_03} alt="" /></a>
+            <a href="#"><img className='mx-auto md:mx-0' src={img_03} alt="" /></a>
         </div>
         </SwiperSlide>
         <SwiperSlide>
         <div className="item">
-            <a href="#"><img src={img_04} alt="" /></a>
+            <a href="#"><img className='mx-auto md:mx-0' src={img_04} alt="" /></a>
         </div>
         </SwiperSlide>
         <SwiperSlide>
         <div className="item">
-            <a href="#"><img src={img_05} alt="" /></a>
+            <a href="#"><img className='mx-auto md:mx-0' src={img_05} alt="" /></a>
         </div>
         </SwiperSlide>
         

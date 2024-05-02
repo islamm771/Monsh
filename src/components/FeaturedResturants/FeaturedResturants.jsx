@@ -7,6 +7,7 @@ import img_04 from "../../assets/homepage/featured-restaurants/logo_04.jpg"
 import img_05 from "../../assets/homepage/featured-restaurants/logo_05.jpg"
 import img_06 from "../../assets/homepage/featured-restaurants/logo_06.jpg"
 import img_07 from "../../assets/homepage/featured-restaurants/logo_07.jpg"
+import { FaLocationDot } from 'react-icons/fa6'
 
 
 const FeaturedResturants = () => {
@@ -20,7 +21,7 @@ const FeaturedResturants = () => {
 					</div>
 					<div className ="bg-resto">
 						<div className="resto-item">	
-							<div className="grid grid-cols-1 md:grid-cols-3">	
+							<div className="grid grid-cols-1 md:grid-cols-3 gap-0">	
 								<div className="">
 									<div className="resto-img">
 										<img src={img_01} alt="" />
@@ -32,7 +33,7 @@ const FeaturedResturants = () => {
 								</div>
 								<div className="">															
 									<div className="resto-location">
-										<span><i className="fas fa-map-marker-alt"></i></span>New York City,1569  
+										<span><FaLocationDot /></span>New York City,1569  
 									</div>						
 								</div>	
 								<div className="">															
@@ -43,7 +44,7 @@ const FeaturedResturants = () => {
 							</div>						
 						</div>
 						<div className="resto-item">	
-							<div className="grid grid-cols-1 md:grid-cols-3">	
+							<div className="grid grid-cols-1 md:grid-cols-3 gap-0">	
 								<div className="">
 									<div className="resto-img">
 										<img src={img_02} alt="" />
@@ -55,7 +56,7 @@ const FeaturedResturants = () => {
 								</div>
 								<div className="">															
 									<div className="resto-location">
-										<span><i className="fas fa-map-marker-alt"></i></span>New York City,1569  
+										<span><FaLocationDot /></span>New York City,1569  
 									</div>						
 								</div>	
 								<div className="">															
@@ -66,7 +67,7 @@ const FeaturedResturants = () => {
 							</div>						
 						</div>
 						<div className="resto-item">	
-							<div className="grid grid-cols-1 md:grid-cols-3">	
+							<div className="grid grid-cols-1 md:grid-cols-3 gap-0">	
 								<div className="">
 									<div className="resto-img">
 										<img src={img_03} alt="" />
@@ -78,7 +79,7 @@ const FeaturedResturants = () => {
 								</div>
 								<div className="">															
 									<div className="resto-location">
-										<span><i className="fas fa-map-marker-alt"></i></span>New York City,1569  
+										<span><FaLocationDot /></span>New York City,1569  
 									</div>						
 								</div>	
 								<div className="">															
@@ -89,7 +90,7 @@ const FeaturedResturants = () => {
 							</div>						
 						</div>
 						<div className="resto-item">	
-							<div className="grid grid-cols-1 md:grid-cols-3">	
+							<div className="grid grid-cols-1 md:grid-cols-3 gap-0">	
 								<div className="">
 									<div className="resto-img">
 										<img src={img_04} alt="" />
@@ -101,7 +102,7 @@ const FeaturedResturants = () => {
 								</div>
 								<div className="">															
 									<div className="resto-location">
-										<span><i className="fas fa-map-marker-alt"></i></span>New York City,1569  
+										<span><FaLocationDot /></span>New York City,1569  
 									</div>						
 								</div>	
 								<div className="">															
@@ -112,7 +113,7 @@ const FeaturedResturants = () => {
 							</div>						
 						</div>
 						<div className="resto-item">	
-							<div className="grid grid-cols-1 md:grid-cols-3">	
+							<div className="grid grid-cols-1 md:grid-cols-3 gap-0">	
 								<div className="">
 									<div className="resto-img">
 										<img src={img_05} alt="" />
@@ -124,7 +125,7 @@ const FeaturedResturants = () => {
 								</div>
 								<div className="">															
 									<div className="resto-location">
-										<span><i className="fas fa-map-marker-alt"></i></span>New York City,1569  
+										<span><FaLocationDot /></span>New York City,1569  
 									</div>						
 								</div>	
 								<div className="">															

@@ -30,10 +30,11 @@
 	text-overflow: ellipsis;
     white-space: nowrap;
     overflow: hidden;
+	transition: 0.2s;
 }
-/* .bg-resto .resto-img .resto-name h4 a:hover{
-	color:#ffa803;
-} */
+.bg-resto .resto-img .resto-name h4 a:hover{
+	color:#fd6729;
+}
 .bg-resto .resto-img .resto-name p{
 	font-size:14px;
 	font-weight:400;
@@ -49,7 +50,10 @@
 	margin-right:10px;
 }
 .resto-item .resto-location span {
-	color:#ffa803;
+	color:#fd6729;
+}
+.resto-item .resto-location span svg{
+	display: inline;
 }
 .menu-btn {
 	padding: 17px 0px;
