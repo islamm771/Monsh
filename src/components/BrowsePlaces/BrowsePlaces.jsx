@@ -5,7 +5,7 @@ import "./BrowsePlaces.css"
 const BrowsePlaces = () => {
   return (
     <section className="browse-places">
-        <div className="mx-6">
+        <div className="container mx-auto">
         <div className="browse-heading">
             <h6> Browse Places </h6>
         </div>

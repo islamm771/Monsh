@@ -5,7 +5,7 @@ import './NewRestaurant.css'
 const NewRestaurant = () => {
   return (
     <section className="new-restaurants-book-now">		
-		<div className="mx-6">
+		<div className="container mx-auto">
 			<div className="row">
 				<div className="col-md-12">
 					<div className="new-heading">

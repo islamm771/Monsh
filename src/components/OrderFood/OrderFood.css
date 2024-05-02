@@ -43,9 +43,8 @@
     color: #8d8d8d;
 }
 .search-meal-btn {
-	padding:13px 20px !important;
+	padding:14px 20px !important;
 	color:#fff;
-	background:#fd6729;
 	font-weight:400;
 	border-top-left-radius:0px !important;
 	border-bottom-left-radius:0px !important;
@@ -70,8 +69,12 @@
 }
 .all-meal {
     position: relative;
-    margin-top: 30px;
-    border: 1px solid #e1e1e1;
+    /* margin-top: 30px; */
+    /* border: 1px solid #e1e1e1; */
+    background-color: #fff;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 6px 15px #404f680d;;
 }
 .top {
     position: relative;

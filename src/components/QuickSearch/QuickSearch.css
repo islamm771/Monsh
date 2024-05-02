@@ -5,21 +5,12 @@
 }
 .sub-title {
 	Font-size: 14px;
-    color: #847577;
+    color: #3e3f5e;
     margin-top: 27px;
 }
 .all-meals {
-	border:1px solid #e1e1e1;
+	/* border:1px solid #e1e1e1; */
 	margin-top: 50px;
-}
-.all-meals .item a{
-	color:#847577;
-}
-.all-meals .item a:hover{
-	color:#ffa803;
-}
-.all-meals .item {
-	padding:30px 0px;
 }
 .meal-icon {
 	width:100%;
@@ -40,4 +31,12 @@
 .meal-title {
 	font-size:14px;
 	font-weight:400;
+}
+
+.quick-swiper .swiper-pagination-bullet-active {
+	background-color: #ff6728ed !important;
+  }
+  
+.quick-swiper .swiper-pagination-bullet {
+background-color: #ff692876;
 }

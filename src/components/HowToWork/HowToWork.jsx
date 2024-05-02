@@ -5,7 +5,7 @@ import "./howToWork.css"
 const HowToWork = () => {
   return (
     <section className="how-to-work">
-		<div className="mx-6">
+		<div className="container mx-auto">
 			<div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
 				<div className="col-md-4 col-sm-12 col-xs-12">
 					<div className="work-item">

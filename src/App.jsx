@@ -1,5 +1,6 @@
+import "./styles/css/styles.css"
 import Header from "./components/Header";
-import BrowsePlaces from "./components/BrowsePlaces";
+import BrowsePlaces from "./components/BrowsePlaces/BrowsePlaces";
 import HowToWork from "./components/HowToWork/HowToWork";
 import NewRestaurant from "./components/NewRestaurant/NewRestaurant";
 import OrderFood from "./components/OrderFood/OrderFood";
@@ -11,15 +12,17 @@ import ExploreRecipes from "./components/ExploreRecipes/ExploreRecipes";
 function App() {
   return (
     <div className="App">
-      <Header />
-      <BrowsePlaces />
-      <HowToWork />
-      <NewRestaurant />
-      <OrderFood />
-      <OfferBanners />
-      <QuickSearch />
-      <FeaturedResturants />
-      <ExploreRecipes />
+        <div className="munch">
+          <Header />
+          <BrowsePlaces />
+          <HowToWork />
+          <NewRestaurant />
+          <OrderFood />
+          <OfferBanners />
+          <QuickSearch />
+          <FeaturedResturants />
+          <ExploreRecipes />
+        </div>
     </div>
   );
 }

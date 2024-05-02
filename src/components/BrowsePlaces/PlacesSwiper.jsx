@@ -1,10 +1,10 @@
 import { Swiper, SwiperSlide } from 'swiper/react';
-import img_01 from '../assets/homepage/browse_places/01.svg'
-import img_02 from '../assets/homepage/browse_places/02.svg'
-import img_03 from '../assets/homepage/browse_places/03.svg'
-import img_04 from '../assets/homepage/browse_places/04.svg'
-import img_05 from '../assets/homepage/browse_places/05.svg'
-import img_06 from '../assets/homepage/browse_places/06.svg'
+import img_01 from '../../assets/homepage/browse_places/01.svg'
+import img_02 from '../../assets/homepage/browse_places/02.svg'
+import img_03 from '../../assets/homepage/browse_places/03.svg'
+import img_04 from '../../assets/homepage/browse_places/04.svg'
+import img_05 from '../../assets/homepage/browse_places/05.svg'
+import img_06 from '../../assets/homepage/browse_places/06.svg'
 // Import Swiper styles
 import 'swiper/css';
 import { Autoplay, Pagination } from 'swiper/modules';
@@ -20,9 +20,7 @@ const PlacesSwiper = () => {
         delay: 2500,
         disableOnInteraction: false,
       }}
-      pagination={{
-        clickable: true,
-      }}
+      
       breakpoints={{
         320: {
           slidesPerView: 3,
@@ -37,7 +35,7 @@ const PlacesSwiper = () => {
           spaceBetween: 50,
         },
       }}
-      modules={[Autoplay, Pagination]}
+      modules={[Autoplay]}
       >
         <SwiperSlide>
         <div className="places">

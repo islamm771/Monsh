@@ -5,11 +5,11 @@ import { PiForkKnifeBold } from "react-icons/pi";
 
 const Header = () => {
   return (
-		<section className="block-preview">
+		<section className="munch-header block-preview">
 			<div className="cover-banner"></div>
-			<div className="mx-6">
-				<div className="grid grid-cols-4 md:gap-4">	
-					<div className="about  md:col-span-2 lg:col-span-3">
+			<div className="container mx-auto">
+				<div className="grid grid-cols-12">	
+					<div className="about md:col-span-6 lg:col-span-8">
 						<div className="left-text-b">
 							<h1 className="title">Choose, Order and Checkout</h1>
 							<h6 className="exeption">Specify your address to suggest you the fast delivery</h6>
@@ -17,7 +17,7 @@ const Header = () => {
 							<a className="bnr-btn btn-link" href="#">Go To Meal</a>
 						</div>
 					</div>
-					<div className="form-cont col-span-4 md:col-span-2 lg:col-span-1">
+					<div className="form-cont col-span-12 md:col-span-6 lg:col-span-4">
 						<form>
 							<div className="form-box">
 								<div className="input-group-prepend">

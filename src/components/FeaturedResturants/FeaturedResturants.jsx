@@ -12,7 +12,7 @@ import img_07 from "../../assets/homepage/featured-restaurants/logo_07.jpg"
 const FeaturedResturants = () => {
   return (
     <section className="featured-restaurants">
-		<div className="mx-6">				
+		<div className="container mx-auto">				
 			<div className="grid grid-cols-12 gap-4">									
 				<div className=" col-span-12 lg:col-span-8">
 					<div className="new-heading">

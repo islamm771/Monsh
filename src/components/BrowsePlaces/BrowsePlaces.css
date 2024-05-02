@@ -1,13 +1,14 @@
 .browse-places {
 	padding: 30px 0px;
-	background:#f3f3f3;
+	/* background:#f3f3f3; */
 	text-align:center;
 }
 .browse-heading h6{
 	text-align:center;
 	font-size:18px;
-	font-weight:400;
+	font-weight:500;
 	color:#3e3f5e;
+	margin-top: 20px;
 }
 .places {
 	text-align:center;
@@ -34,5 +35,5 @@
 	color:#847577;
 }
 .places a:hover {
-	color:#fd6729;
+	color: #11d8dc;
 }

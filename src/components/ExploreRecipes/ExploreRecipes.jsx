@@ -13,7 +13,7 @@ import img_06 from "../../assets/homepage/recipes/recipe_06.jpg"
 const ExploreRecipes = () => {
   return (
     <section className="explore-recipes">			
-		<div className="mx-6">		
+		<div className="container mx-auto">		
 			<div>	
 				<div>
 					<div className="new-heading">

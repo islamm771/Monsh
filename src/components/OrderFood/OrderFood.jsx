@@ -28,7 +28,7 @@ import imgLogo_08 from "../../assets/homepage/meals/logo-8.jpg"
 const OrderFood = () => {
   return (
     <section className="order-food-online">		
-		<div className="mx-6">
+		<div className="container mx-auto">
 			<div className="row">
 				<div className="">
 					<div className="new-heading">
@@ -54,7 +54,7 @@ const OrderFood = () => {
 					</div>
 				</div>
 			</div>
-			<div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-4 gap-4">
+			<div className="mt-[30px] grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-4 gap-[30px]">
 				<div className="col-lg-3 col-md-6 col-sm-12 col-xs-12">
 					<div className="all-meal">
 						<div className="top">

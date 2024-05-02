@@ -48,7 +48,6 @@
     font-weight: 400;
 }
 
-
 .bnr-btn {
 	color:#fff;
     display: inline-block;
@@ -77,10 +76,12 @@
 	padding-bottom:80px;
 	background-color: rgb(255, 255, 255, 0.102);
 	z-index: 848;
+    border-radius: 0 !important;
+    width: 100%;
 }
 .find-address {
 	color:#847577;
-	padding:16px 50px;
+	padding:16px 50px !important;
 	font-size:12px;
 	font-weight:400;
 	width:100%;
@@ -94,7 +95,7 @@
 
 .find-resto {
 	color:#847577;
-	padding:16px 50px;
+	padding:16px 50px !important;
 	font-size:12px;
 	font-weight:400;
 	width:100%;
@@ -105,7 +106,7 @@
 	z-index: 857;
     outline: 0;
 }
-.find-resto:focus{
+/* .find-resto:focus{
 	border-radius:3px;border: 1px solid #ffa803;
 	background-color: rgb(255, 255, 255);
 	box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, 0.1);
@@ -114,7 +115,7 @@
 	border-radius:3px;border: 1px solid #ffa803;
 	background-color: rgb(255, 255, 255);
 	box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, 0.1);
-}
+} */
 .search-btn {
 	color:#fff;
     display: inline-block;
@@ -135,6 +136,7 @@
     padding: 14px 30px;
 	cursor:pointer;
 	margin-top: 46px;
+    width: fit-content !important;
 }
 
 .input-group-text {
@@ -144,7 +146,7 @@
     -webkit-box-align: center;
     -ms-flex-align: center;
     align-items: center;
-    padding: 19px 18px;
+    padding: 16px 18px;
 	margin:2px 2px;
     margin-bottom: 0;
     font-size: 12px;
@@ -158,6 +160,7 @@
     border-top-right-radius:0px;
     border-bottom-right-radius:0px;
     position: absolute;
+    border-radius: 15px;
 }
 .input-group-text-1 {
     display: -webkit-box;
@@ -166,7 +169,7 @@
     -webkit-box-align: center;
     -ms-flex-align: center;
     align-items: center;
-    padding: 19px 18px;
+    padding: 16px 18px;
 	margin: 32px 2px;
     margin-bottom: 0;
     font-size: 12px;
@@ -180,4 +183,5 @@
     border-top-right-radius:0px;
     border-bottom-right-radius:0px;
     position: absolute;
+    border-radius: 15px;
 }

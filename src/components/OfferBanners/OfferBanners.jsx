@@ -4,7 +4,7 @@ import "./OfferBanners.css"
 const OfferBanners = () => {
   return (
     <section className="offer-banners">	
-		<div className="mx-6">
+		<div className="container mx-auto">
 			<div className="grid grid-cols-1 md:grid-cols-2 gap-4">
 				<div className="">
 					<div className="banner">

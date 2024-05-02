@@ -1,31 +1,35 @@
 import { Swiper, SwiperSlide } from 'swiper/react';
-import img_01 from '../../assets/homepage/resto-book/img_1.jpg'
-import img_02 from '../../assets/homepage/resto-book/img_2.jpg'
-import img_03 from '../../assets/homepage/resto-book/img_3.jpg'
-import img_04 from '../../assets/homepage/resto-book/img_4.jpg'
-import img_05 from '../../assets/homepage/resto-book/img_5.jpg'
-// import img_06 from '../../assets/homepage/resto-book/img_6.jpg'
 import {  Navigation, Pagination } from 'swiper/modules';
-// import img_02 from '../../assets/homepage/browse_places/02.svg'
-// import img_03 from '../../assets/homepage/browse_places/03.svg'
-// import img_04 from '../../assets/homepage/browse_places/04.svg'
-// import img_05 from '../../assets/homepage/browse_places/05.svg'
-// import img_06 from '../../assets/homepage/browse_places/06.svg'
+
+import img_01 from '../../assets/homepage/resto-book/img_1.png'
+import img_02 from '../../assets/homepage/resto-book/img_2.png'
+import img_03 from '../../assets/homepage/resto-book/img_3.png'
+import img_04 from '../../assets/homepage/resto-book/img_4.png'
+import img_05 from '../../assets/homepage/resto-book/img_5.png'
+
 // Import Swiper styles
 import 'swiper/css';
 import 'swiper/css/navigation';
+import 'swiper/css/pagination';
+import { useSwiper } from 'swiper/react';
+
+import { FaChevronLeft,FaChevronRight } from "react-icons/fa";
+
 
 const RestuarantSwiper = () => {
   return (
-    <div className="mx-6">
-      <Swiper className="mySwiper"
+    <div className="mx-6 resto-swiper">
+      <Swiper className="mySwiper pb-[35px]"
       slidesPerView={4}
       spaceBetween={5}
       loop={true}
       pagination={{
         clickable: true,
       }}
-      navigation={true}
+      navigation={{
+        nextEl:".swiper-next-btn",
+        prevEl:".swiper-prev-btn",
+      }}
       breakpoints={{
         320: {
           slidesPerView: 2,
@@ -69,6 +73,11 @@ const RestuarantSwiper = () => {
         </SwiperSlide>
         
       </Swiper>
+
+      <div className="buttons">
+        <button className='swiper-prev-btn'><FaChevronLeft /></button>
+        <button className='swiper-next-btn'><FaChevronRight /></button>
+      </div>
     </div>
   )
 }

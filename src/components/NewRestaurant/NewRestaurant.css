@@ -9,6 +9,61 @@
 
 .new-resto {
 	margin-top:46px;
-	border:1px solid #e1e1e1;
+	/* border:1px solid #e1e1e1; */
 	padding: 20px 20px 10px;
+	position: relative;
+}
+
+
+.resto-swiper .buttons{
+	position: absolute;
+    width: 100%;
+    bottom: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 200px;
+    left: 0;
+    z-index: 555;
+}
+.resto-swiper .buttons button{
+	width: fit-content !important;
+	border: none;
+	background-color: transparent;
+}
+.resto-swiper .buttons button svg{
+	color: #eee;
+	transition: 0.5s;
+}
+.resto-swiper .buttons button svg:hover{
+	color: #ff6728ed;
+}
+
+
+/* .resto-swiper .swiper-button-next, 
+.resto-swiper .swiper-button-prev {
+  color: #ff6728;
+  z-index: 5;
+}
+
+.resto-swiper .swiper-button-next{
+	bottom: 0 !important;
+	top: unset !important;
+} */
+
+.resto-swiper .swiper-button-next:after, 
+.resto-swiper .swiper-button-prev:after {
+  font-size: 30px;
+}
+
+.resto-swiper .swiper-button-next.swiper-button-disabled, 
+.resto-swiper .swiper-button-prev.swiper-button-disabled {
+    opacity: 0;
+}
+
+.resto-swiper .swiper-pagination-bullet-active {
+  background-color: #ff6728ed !important;
+}
+
+.resto-swiper .swiper-pagination-bullet {
+  background-color: #ff692876;
 }
